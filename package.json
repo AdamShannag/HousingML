@@ -1,0 +1,14 @@
+{
+  "name": "usa_housing_ml",
+  "version": "1.0.0",
+  "description": "A web application that calls a python script to run predictions using a trained model",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "author": "Adam Shannaq",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
